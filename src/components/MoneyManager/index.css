@@ -1,0 +1,56 @@
+.money-manager {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.money-manager h1 {
+    color: #475569;
+}
+
+.money-manager form,
+.history {
+    margin-bottom: 20px;
+    width: 50%;
+    margin: 1em;
+}
+
+.money-manager label {
+    display: block;
+    margin-bottom: 5px;
+    color: #334155;
+}
+
+.money-manager input,
+.money-manager select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #d7dfe9;
+    border-radius: 4px;
+}
+
+.money-manager button {
+    background-color: #0b69ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.money-manager button:hover {
+    background-color: #084bbf;
+}
+
+.flex {
+    display: flex;
+    gap: 2em;
+}
+
+.welcome {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+    background-size: cover;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 15px;
+}

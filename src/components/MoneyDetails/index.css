@@ -1,0 +1,27 @@
+.money-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin: 1em;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    background-color: #ecfccb;
+    padding: 10px;
+    border-radius: 8px;
+    width: 30%;
+    height: 5em;
+}
+
+.detail-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.detail-item p {
+    margin: 0;
+    color: #1e293b;
+}
