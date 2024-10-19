@@ -54,7 +54,7 @@ class MoneyManager extends Component {
             .filter(transaction => transaction.type === 'Income')
             .reduce((acc, curr) => acc + curr.amount, 0);
         const expenses = transactions
-            .filter(transaction => transaction.type === 'Expences')
+            .filter(transaction => transaction.type === 'Expenses')
             .reduce((acc, curr) => acc + curr.amount, 0);
         const balance = income - expenses;
 
